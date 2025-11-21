@@ -1,0 +1,52 @@
+# =========================================
+# VirtualBox / VM files
+# =========================================
+*.vbox
+*.vdi
+*.vmdk
+*.nvram
+*.log
+
+# =========================================
+# Evidence artifacts (screenshots, configs, logs)
+# =========================================
+evidence/screenshots/
+evidence/configs/
+evidence/logs/
+
+# =========================================
+# Linux / Unix temp files
+# =========================================
+*~
+*.swp
+*.bak
+
+# =========================================
+# PowerShell / Windows temp/log files
+# =========================================
+*.ps1xml
+*.psm1
+*.psd1
+*.log
+
+# =========================================
+# IDE / Editor
+# =========================================
+.vscode/
+.idea/
+*.iml
+
+# =========================================
+# Secrets / sensitive files
+# =========================================
+*.env
+secrets.yml
+vault.key
+
+# =========================================
+# Optional: Ansible / Terraform artifacts
+# =========================================
+*.retry
+*.tfstate
+*.tfstate.*
+.terraform/
