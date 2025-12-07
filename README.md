@@ -24,18 +24,19 @@ A reproducible, STIG-aligned Zero Trust lab environment demonstrating hardened e
 
 ## 🏗 Repository Structure
 
-```plaintext
 STIG-Hardened-Lab/
-├── Docs/                  # Architecture, STIG checklists, hardening guides, reports
-├── Configs/               # Configuration files for pfSense, Windows, Linux, network
-├── Scripts/               # PowerShell, Bash, and Python automation scripts
-├── Tools/                 # Scanners, analyzers, and automation tools
-├── Evidence/              # Screenshots, logs, and sanitized configs (ignored)
-├── Images/                # Lab images, diagrams
-├── Diagrams/              # Network and architecture diagrams
-├── VM-Files/              # VirtualBox/VM files (ignored)
-└── README.md              # This file
-<<<<<<< HEAD
+├── Configs/           # Hardened system configs, STIG checklists, and remediation templates
+├── Diagrams/          # Architecture diagrams, flowcharts, and lab topology visuals
+├── Docs/              # STIG documentation, SOPs, and audit-grade writeups
+├── Evidence/          # Screenshots, logs, and forensic proof of hardening steps
+├── Images/            # Visual assets used in documentation and dashboards
+├── Scripts/           # PowerShell, Bash, and Python automation for STIG enforcement
+├── Tools/             # Utilities and helper binaries used during hardening
+├── VM-Files/          # Virtual machine exports, snapshots, and configuration files
+├── .gitignore         # Excludes sensitive and platform-specific clutter
+├── LICENSE            # MIT license for public use and adaptation
+├── README.md          # Project overview, usage instructions, and recruiter-facing notes
+
 ```
 
 > All sensitive files and evidence artifacts are ignored via `.gitignore`.
