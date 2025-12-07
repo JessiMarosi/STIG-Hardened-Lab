@@ -53,21 +53,6 @@ STIG-Hardened-Lab/
 
 ---
 
-## 📚 Usage
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/JessiMarosi/STIG-Hardened-Lab.git
-cd STIG-Hardened-Lab
-```
-
-2. Populate `Configs/`, `Scripts/`, and `VM-Files/` with your lab artifacts.  
-3. Run automation scripts from `Scripts/` as required.  
-4. Use `Docs/` for guidance, STIG checklists, and lab reports.  
-
----
-
 ## 🔒 Safety
 
 - No secrets are stored in this repository  
