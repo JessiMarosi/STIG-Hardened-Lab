@@ -71,3 +71,8 @@ cd STIG-Hardened-Lab
 - Configure Zero Trust network segmentation  
 - Integrate logging and telemetry into Wazuh + ELK  
 - Automate common hardening tasks with PowerShell and Ansible
+## Lab Status
+- VMs created: pfSense, Windows Client, Ubuntu Client
+- Baseline hardening applied via Ansible
+- Evidence folders initialized
+- Automation scripts ready for further development
