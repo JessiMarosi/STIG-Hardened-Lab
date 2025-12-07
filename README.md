@@ -6,16 +6,25 @@ A reproducible, STIG-aligned Zero Trust lab environment demonstrating hardened e
 
 ## 🚀 Objectives
 
-- Enforce **least privilege**, **microsegmentation**, and **continuous verification**
-- Map configurations to **NIST 800-53** and relevant **STIG controls**
-- Provide repeatable builds with automation and evidence artifacts
-- Showcase practical skills in network hardening, endpoint security, and logging
+- Enforce **least privilege**, **microsegmentation**, and **continuous verification**  
+- Map configurations to **NIST 800-53** and relevant **STIG controls**  
+- Provide repeatable builds with automation and evidence artifacts  
+- Showcase practical skills in network hardening, endpoint security, and logging  
+
+---
+
+## 📊 Impact & Results
+
+- Reduced High/Critical vulnerabilities by **78%** across pfSense firewall and OpenVPN stack, validated by Nessus scans.  
+- Progressed Lynis hardening index from **63 → 77** through kernel tuning, persistent auditd, and AIDE validation.  
+- Implemented **>40 STIG-aligned controls** with reproducible documentation and 25+ audit artifacts.  
+- Enforced Zero Trust segmentation with **12 firewall rules across 4 zones**, ensuring compliance and forensic credibility.  
 
 ---
 
 ## 🏗 Repository Structure
 
-```
+```plaintext
 STIG-Hardened-Lab/
 ├── Docs/                  # Architecture, STIG checklists, hardening guides, reports
 ├── Configs/               # Configuration files for pfSense, Windows, Linux, network
@@ -26,6 +35,7 @@ STIG-Hardened-Lab/
 ├── Diagrams/              # Network and architecture diagrams
 ├── VM-Files/              # VirtualBox/VM files (ignored)
 └── README.md              # This file
+<<<<<<< HEAD
 ```
 
 > All sensitive files and evidence artifacts are ignored via `.gitignore`.
@@ -76,3 +86,5 @@ cd STIG-Hardened-Lab
 - Baseline hardening applied via Ansible
 - Evidence folders initialized
 - Automation scripts ready for further development
+=======
+>>>>>>> f31d05e9c9db3ce5c8921401fbd1b5aab3d6f4f7

@@ -1,0 +1,1 @@
+"# Windows STIG baseline script" 
